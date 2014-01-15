@@ -41,6 +41,36 @@ class SpraySpec extends WordSpec with Matchers {
     "parse it 1,000 times (10)" in { //{2
       go()
     } //}2
+    "parse it 1,000 times (11)" in { //{2
+      go()
+    } //}2
+    "parse it 1,000 times (12)" in { //{2
+      go()
+    } //}2
+    "parse it 1,000 times (13)" in { //{2
+      go()
+    } //}2
+    "parse it 1,000 times (14)" in { //{2
+      go()
+    } //}2
+    "parse it 1,000 times (15)" in { //{2
+      go()
+    } //}2
+    "parse it 1,000 times (16)" in { //{2
+      go()
+    } //}2
+    "parse it 1,000 times (17)" in { //{2
+      go()
+    } //}2
+    "parse it 1,000 times (18)" in { //{2
+      go()
+    } //}2
+    "parse it 1,000 times (19)" in { //{2
+      go()
+    } //}2
+    "parse it 1,000 times (20)" in { //{2
+      go()
+    } //}2
   } //}1
 }
 // vim:fdl=1:

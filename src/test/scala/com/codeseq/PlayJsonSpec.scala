@@ -2,15 +2,15 @@ package com.codeseq
 
 import org.scalatest.{WordSpec, Matchers}
 
-class ArgonautSpec extends WordSpec with Matchers {
+class PlayJsonSpec extends WordSpec with Matchers {
   val jsonStr = loadJson()
 
   def go(): Unit = 
     for (_ <- 1 to 1000) {
-      Argonaut.parseToString(jsonStr)
+      PlayJson.parseToString(jsonStr)
     }
 
-  "Argonaut" should { //{1
+  "PlayJson" should { //{1
     "parse it 1,000 times (01)" in { //{2
       go()
     } //}2
@@ -74,4 +74,3 @@ class ArgonautSpec extends WordSpec with Matchers {
   } //}1
 }
 // vim:fdl=1:
-
