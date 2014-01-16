@@ -11,6 +11,8 @@ libraryDependencies := Seq(
   "io.spray"          %% "spray-json" % "1.2.5",
   "io.spray"          %% "spray-json" % "1.2.5",
   "com.typesafe.play" %% "play-json"  % "2.2.1",
+  "org.parboiled"     %% "parboiled"  % "2.0-SNAPSHOT",
+  "org.parboiled"     %% "examples"   % "2.0-SNAPSHOT",
   "org.scalatest"     %% "scalatest"  % "2.0" % "test"
 )
 
