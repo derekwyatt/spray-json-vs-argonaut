@@ -13,8 +13,8 @@ libraryDependencies := Seq(
   "com.typesafe.play" %% "play-json"      % "2.2.1",
   "org.json4s"        %% "json4s-jackson" % "3.2.6",
   "org.json4s"        %% "json4s-native"  % "3.2.6",
-  "org.parboiled"     %% "parboiled"      % "2.0-SNAPSHOT",
-  "org.parboiled"     %% "examples"       % "2.0-SNAPSHOT",
+  "org.parboiled"     %% "parboiled"      % "2.0-M1",
+  //"org.parboiled"     %% "examples"       % "2.0-M1",
   "org.scalatest"     %% "scalatest"      % "2.0" % "test"
 )
 
