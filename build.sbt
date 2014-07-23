@@ -9,7 +9,6 @@ resolvers += "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases/
 libraryDependencies := Seq(
   "io.argonaut"       %% "argonaut"       % "6.1-M2",
   "io.spray"          %% "spray-json"     % "1.2.5",
-  "io.spray"          %% "spray-json"     % "1.2.5",
   "com.typesafe.play" %% "play-json"      % "2.2.1",
   "org.json4s"        %% "json4s-jackson" % "3.2.6",
   "org.json4s"        %% "json4s-native"  % "3.2.6",
